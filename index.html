@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body bgcolor="#cccccc">
+    
+    <div align="center">
+        <img src="./download (1).jpg" alt="" height="400" widhth="800">
+    </div>
+    <form action="registration">
+    <fieldset>
+        <legend>Intro</legend>
+        <label >First Name </label> <br>
+        <input type="text" value=""><br>
+        <label >Last Name </label><br>
+        <input type="text">
+
+    </fieldset>
+
+<br>
+    <fieldset>
+        <legend>Self Details</legend>
+        <label >Email </label> <br>
+        <input type="email"><br>
+        <label >Phone Number </label> <br>
+        <input type="number"><br>
+        <label >Address </label><br>
+        <textarea name="address" cols="30" rows="10"></textarea>
+    </fieldset><br><br>
+    <fieldset>
+    <tr>
+        <th>Select your language</th><br>
+        <td>
+        HTML<input type="checkbox" name="x[]" value="h"/><br>
+        C<input type="checkbox" name="x[]" value="h2"/><br>
+        CSS<input type="checkbox" name="x[]" value="h3"/><br>
+        PYTHON<input type="checkbox" name="x[]" value="h3"/><br>
+        </td>
+        </tr>
+    </fieldset>
+
+<br><br>
+
+ <fieldset>
+    <legend>Select an option </legend>
+    <label >choose a branch</label>
+    <select >
+    <option value="BCA">BCA</option>
+    <option value="B.TECH">B.TECH</option>
+    <option value="MCA">MCA</option>
+    <option value="MBA">MBA</option>
+</select>
+</fieldset>
+<fieldset>
+    <legend>choose your gender</legend>
+    <label><input type="radio" name="gender"> Male</label>
+    <label><input type="radio" name="gender"> Female</label>
+    <label><input type="radio" name="gender"> Other</label>
+    
+</fieldset>
+
+<br><br>
+
+ <fieldset>
+    <legend>DATE OF BIRTH</legend>
+    <h6>Date in dd-mm-yy</h6>
+     <input type="date">
+     <input type="time" >
+
+
+ </fieldset>
+<br><br>
+
+<br><br>
+
+<input class="button" type="submit" value="submit"name="">
+<input class="button" type="reset" value="reset"name="">
+
+
+
+</form>
+</body>
+</html>
